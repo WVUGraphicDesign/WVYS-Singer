@@ -1,0 +1,37 @@
+Form {
+  font-family: Oriya, sans-serif;
+}
+
+h1 {
+  color:#F0810F;
+  text-align: center;
+}
+
+body [input] {
+  text-align: center;
+  color: #014767;
+}
+
+input[type="text"], input[type="tel"], input[type="email"], input[type="address"], input[type="text"], input[type="text"], input[type="name"], input[type="years"] {
+  border: none;
+  border-bottom: 2px solid #014767;
+  margin-bottom: 15px;
+}
+
+button {
+  border: none;
+  height: 40px;
+  background-color: #014767;
+  border-radius: 30px;
+  margin-bottom: 25px;
+  color:#FFFFFF;
+}
+
+button li {
+  list-style: none;
+}
+
+button a {
+  text-decoration: none;
+  color: #FFFFFF;
+}

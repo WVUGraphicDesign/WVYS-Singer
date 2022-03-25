@@ -19,14 +19,19 @@ nav a {
 }
 
 nav ul {
-  margin-top: 20;
+  margin-top: 20px;
+}
+
+img {
+  margin-left: 10px;
 }
 
 heading img {
-
+position: relative;
 }
 
 h1 {
+  position: absolute;
   color: #FFFFFF;
   margin-left: 20px;
   font-size: 60px;
@@ -37,11 +42,60 @@ h2 {
   text-align: left;
   font-size: 25px;
   font-weight: bold;
+  margin-left: 75px;
+  color: #F0810F;
+}
+
+#section_four h2 {
+    color: #F0810F;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 75px;
+    color: #F0810F;
+}
+
+#section_four p {
+  color: #014767;
+  font-size: 15px;
+  margin-left: 75px;
+  color: #014767;
+}
+
+#section_four h4 {
+  text-align: center;
+  margin-left: 75px;
+  color: #FFFFFF;
+
 }
 
 P{
   color: #014767;
   font-size: 15px;
+  margin-left: 75px;
+  color: #014767;
+}
+
+#section_three li {
+  margin-left: 75px;
+  color: #014767;
+}
+
+h4 {
+  margin-left: 75px;
+  color: #F0810F;
+}
+
+#section_five li {
+  margin-left: 75px;
+  list-style: none;
+  color: #014767;
+  font-size: 17px;
+}
+
+h3 {
+  margin-left: 75px;
+  color: #F0810F;
 }
 
 footer {
