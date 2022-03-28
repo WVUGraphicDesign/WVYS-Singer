@@ -5,13 +5,10 @@ Form {
 h1 {
   color:#F0810F;
   text-align: center;
-  padding-top: 10;
+  margin-top: 30px;
 }
 
-body [input] {
-  text-align: center;
-  color: #014767;
-}
+
 
 input[type="text"], input[type="tel"], input[type="email"], input[type="address"], input[type="text"], input[type="text"], input[type="name"], input[type="years"] {
   border: none;

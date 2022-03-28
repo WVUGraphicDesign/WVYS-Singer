@@ -42,6 +42,11 @@ h3 {
   margin-left: 20px;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 #section_two li {
   list-style: none;
   font-size: 25px;

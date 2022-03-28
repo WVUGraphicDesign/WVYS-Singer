@@ -1,16 +1,15 @@
-Form {
-  font-family: Oriya, sans-serif;
+body {
+  font-family: darkmode-on, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h1 {
   color:#F0810F;
   text-align: center;
+  margin-top: 30px;
 }
 
-body [input] {
-  text-align: center;
-  color: #014767;
-}
 
 input[type="text"], input[type="tel"], input[type="email"], input[type="address"], input[type="text"], input[type="text"], input[type="name"], input[type="years"] {
   border: none;
@@ -18,20 +17,13 @@ input[type="text"], input[type="tel"], input[type="email"], input[type="address"
   margin-bottom: 15px;
 }
 
-button {
-  border: none;
+a {
   height: 40px;
   background-color: #014767;
-  border-radius: 30px;
-  margin-bottom: 25px;
-  color:#FFFFFF;
+  border-radius: 10px;
 }
 
-button li {
-  list-style: none;
-}
-
-button a {
+a {
   text-decoration: none;
   color: #FFFFFF;
 }

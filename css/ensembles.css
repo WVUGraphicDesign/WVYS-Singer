@@ -29,17 +29,19 @@ img{
 heading img {
   position: relative;
 }
+
 h1 {
   position: absolute;
   color: #FFFFFF;
   margin-left: 20px;
-  font-size: 60px;
 }
+
 h2 {
   color: #F0810F;
   text-align: center;
   font-size: 25px;
   font-weight: bold;
+  margin-left:75px;
 }
 
 P{
@@ -47,16 +49,23 @@ P{
   font-size: 15px;
 }
 
-li {
-  list-style: none;
+#section-four p {
+  text-align: left
 }
 
 footer {
   background-color: #014767;
+  margin-top: 30px;
 }
 
 footer li {
   list-style: none;
+  text-align: right;
+}
+
+footer a {
+  color: #FFFFFF;
+  margin-right: 50px;
 }
 
 nav a {

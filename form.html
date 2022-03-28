@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Student Form</title>
+    <title>Student Information Form</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/text.css">
     <link rel="stylesheet" href="css/960.css">
@@ -13,7 +13,7 @@
     <div class="container_16">
       <form action="Student Form.php" method="post" class="grid_7">
         <div class="grid_7 prefix_5 suffix_1">
-        <h1>Student Form</h1>
+        <h1>Student Information Form</h1>
 
       <label class="grid_7" for="name">Student Name:</label>
       <input class="grid_7" type="text" id="name">
@@ -41,56 +41,59 @@
 
     <fieldset class="grid_7">
       <legend>Do you play in your school's band?</legend>
-      <lable class="grid_7" for="yes">Yes:</lable>
-      <input class="grid_7" type="radio" id="yes" name="play">
+      <input class="grid_1" type="radio" id="yes" name="play">
+      <label class="grid_5" for="yes">Yes:</label>
 
-      <lable class="grid_7" for="no">No:</lable>
-      <input class="grid_7" type="radio" id="no" name="play">
+      <input class="grid_1" type="radio" id="no" name="play">
+      <label class="grid_5" for="no">No:</label>
 
-      <lable class="grid_7" for="no band">My school dosen't have a band:</lable>
-      <input class="grid_7" type="radio" id="no_band">
+      <input class="grid_1" type="radio" id="no_band">
+      <label class="grid_5" for="no band">My school dosen't have a band:</label>
+
     </fieldset>
 
     <fieldset class="grid_7">
       <legend>Do you play in your school’s orchestra?</legend>
-      <lable class="grid_7" for="yes">Yes:</lable>
-      <input class="grid_7" type="radio" id="yes" name="orchestra">
+      <input class="grid_1" type="radio" id="yes" name="orchestra">
+      <label class="grid_5" for="yes">Yes:</label>
 
-      <lable class="grid_7" for="no">No:</lable>
-      <input class="grid_7" type="radio" id="no" name="orchestra"">
+      <input class="grid_1" type="radio" id="no" name="orchestra">
+      <label class="grid_5" for="no">No:</label>
 
-      <lable class="grid_7" for="no orchestra"">My school dosen't have a orchestra:</lable>
-      <input class="grid_7" type="radio" id="no_orchestra"">
+      <input class="grid_1" type="radio" id="no_orchestra">
+      <label class="grid_5" for="no orchestra"">My school dosen't have a orchestra:</label>
+
     </fieldset>
 
     <fieldset class="grid_7">
-      <label>Ensemble</label>
-      <lable class="grid_7" for="cadet strings">Cadet Strings:</lable>
-      <input class="grid_7" type="radio" id="cadet" name="orchestra">
+      <legend>Ensemble</legend>
+      <input class="grid_1" type="radio" id="cadet" name="orchestra">
+      <label class="grid_5" for="cadet strings">Cadet Strings:</label>
 
-      <lable class="grid_7" for="youth strings">Youth Strings:</lable>
-      <input class="grid_7" type="radio" id="youth_strings" name="orchestra"">
+      <input class="grid_1" type="radio" id="youth_strings" name="orchestra">
+      <label class="grid_5" for="youth strings">Youth Strings:</label>
 
-      <lable class="grid_7" for="youth winds">Youth Strings:</lable>
-      <input class="grid_7" type="radio" id="youth_winds"">
+      <input class="grid_1" type="radio" id="youth_winds">
+      <label class="grid_5" for="youth winds">Youth Strings:</label>
 
-      <lable class="grid_7" for="youth orchestra">Not Sure:</lable>
-      <input class="grid_7" type="radio" id="not_sure"">
+      <input class="grid_1" type="radio" id="not_sure"">
+      <label class="grid_5" for="youth orchestra">Not Sure:</label>
 
-      <lable class="grid_7" for="notsure">Youth Orchestra:</lable>
-      <input class="grid_7" type="radio" id="youth_orcgestra"">
+      <input class="grid_1" type="radio" id="youth_orcgestra">
+      <label class="grid_5" for="notsure">Youth Orchestra:</label>
+
     </fieldset>
 
-    <lable class="grid_7" for="instruments">Instrument(s)</lable>
+    <label class="grid_7" for="instruments">Instrument(s)</label>
     <input class="grid_7" type="name" id="instruments">
 
-    <lable class="grid_7" for="years">Number of years in WVYS</lable>
+    <label class="grid_7" for="years">Number of years in WVYS</label>
     <input class="grid_7" type="years" id="years">
 
 
-        <button class="grid_3">
-          <li><a class="grid_2" href="parentform.html">Next Page 1 of 2</a></li>
-        </button>
+
+      <a class="grid_3" href="parentform.html">Next Page 1 of 2</a>
+
 
       </form>
 
