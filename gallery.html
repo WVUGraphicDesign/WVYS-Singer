@@ -7,20 +7,29 @@
     <link rel="stylesheet" href="css/text.css">
     <link rel="stylesheet" href="css/960.css">
     <link rel="stylesheet" href="css/gallery.css">
+    <script src="https://kit.fontawesome.com/73c1d56ea1.js" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider();
+    });
+  </script>
   </head>
   <body>
 
     <div class="container_16">
-    <img src="images/logo.png" alt="WVYS Logo">
     <nav class="grid_16">
       <ul>
-        <li class="logo"><img src="images/logo.png" alt=""></li>
+        <li><a href="index.html"><img src="images/logo.png" alt=""></a></li>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="ensembles.html">Ensembles</a></li>
         <li><a href="audition.html">Audition</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
+        <li><a class="active" href="gallery.html">Gallery</a></li>
         <li><a href="support.html">Support</a></li>
       </ul>
     </nav>
@@ -30,46 +39,74 @@
     <h1>Gallery</h1>
   </header>
 
-    <section class="img">
-      <img src="#" alt="">
+<div class="container grid_12">
+  <ul class="slider">
+    <li><img src="images/spring1.png"></li>
+    <li><img src="images/spring2.png"></li>
+    <li><img src="images/spring3.png"></li>
+    <li><img src="images/spring5.png"></li>
+    <li><img src="images/spring7.png"></li>
+</div>
+<h2>2015 Spring Concert</h2>
 
-<div class="grid-container">
-<div id="section-one">
+<div class="container grid_12">
+  <ul class="slider">
+    <li><img src="images/winter1.png"></li>
+    <li><img src="images/winter2.png"></li>
+    <li><img src="images/winter3.png"></li>
+    <li><img src="images/winter4.png"></li>
+    <li><img src="images/winter5.png"></li>
+    <li><img src="images/winter6.png"></li>
+    <li><img src="images/winter7.png"></li>
+    <li><img src="images/winter8.png"></li>
+</div>
+<h2>2014 Winter Concert</h2>
+
+<div class="container grid_12">
+  <ul class="slider">
+    <li><img src="images/all1.png"></li>
+    <li><img src="images/all2.png"></li>
+    <li><img src="images/all3.png"></li>
+    <li><img src="images/all4.png"></li>
+</div>
+<h2>2013 FestivALL Concert</h2>
+
+
+
+<footer class="grid_16">
+
+<div class="grid_16">
+  <div class="grid-container">
   <ul>
-    <li> 2015 Spring<img src="images/Spring.png" alt=""></li>
-    <li> 2014 Winter<img src="images/winter13.png" alt=""></li>
+    <li>West Virgina Youth Symphony</li>
+    <li>PO Box 4908</li>
+    <li>Charleston, WV 25364</li>
+    <li>wvyouthsymphony@gmail.com</li>
   </ul>
 
-  <ul>
-    <li> 2013 Winter<img src="images/winter.png" alt=""></li>
-    <li> 2013 festivALL<img src="images/festivALL.png" alt=""></li>
-  </ul>
+<div id="section-9" class="label grid_7">
+    <a href="index.html">Home</a>
+    <a href="support.html">Support</a>
+    <a href="audition.html">Audition</a>
+    <a href="ensembles.html">Ensembles</a>
+</div>
+
+<a href="index.html">
+  <img src="images/logo.png" alt="WVYS Logo">
+</a>
+
+<div class="brands grid_3">
+  <a class="fa-brands fa-instagram"></a>
+  <a class="fa-brands fa-twitter"></a>
+  <a class="fa-brands fa-facebook-f"></a>
+</div>
+
+
 </div>
 </div>
-    <footer>
 
-        <img src="images/logo.png" alt="WVYS Logo">
 
-        <h5>West Virginia Youth Symphony</h5>
-        <h5>PO Box 4908</h5>
-        <h5>Charleston, WV 25364</h5>
-        <h5>Office 304-957-9888</h5>
-        <br>
-        <h5>wvyouthsymphony@gmail.com</h5>
-
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="support.html">Support</a></li>
-            <li><a href="audition.html">Audition</a></li>
-            <li><a href="ensembles.html">Ensembles</a></li>
-        </ul>
-
-        <ul>
-          <li><img src="#" alt="instagram"></li>
-          <li><img src="#" alt="twitter"></li>
-          <li><img src="#" alt="facebook"></li>
-        </ul>
-
-    </footer>
-    </body>
-  </html>
+</footer>
+</div>
+  </body>
+</html>

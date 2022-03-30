@@ -16,11 +16,15 @@ input[type="text"], input[type="tel"], input[type="email"], input[type="address"
   margin-bottom: 15px;
 }
 
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
 button {
   border: none;
   height: 40px;
   background-color: #014767;
   border-radius: 30px;
   margin-bottom: 25px;
-  color:#FFFFFF;
 }

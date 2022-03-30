@@ -18,12 +18,21 @@ nav a {
   color: #FFFFFF;
 }
 
+nav a:hover {
+color:#F0810F;
+}
+
+nav a.active {
+  color:#F0810F;
+}
+
 nav ul {
   margin-top: 20px;
 }
 
 img{
   margin-left: 10px;
+  margin-bottom: 25px;
 }
 
 heading img {
@@ -43,21 +52,44 @@ h2 {
 }
 
 #section-two li {
+  list-style: none;
   color: #014767;
   font-size: 15px;
+}
+
+#section-two a:hover {
+  color: #F0810F;
 }
 
 #section-three li {
+  list-style: none;
   text-align: center;
-  color: #014767;
   font-size: 15px;
+  text-decoration: none;
+}
 
+#section-three a {
+  text-decoration: none;
+  color: #014767;
+}
+
+#section-three a:hover {
+  color: #F0810F;
 }
 
 #section-four li {
+  list-style: none;
   text-align: center;
-  color: #014767;
   font-size: 15px;
+}
+
+#section-four a {
+  text-decoration: none;
+  color: #014767;
+}
+
+#section-four a:hover {
+  color: #F0810F;
 }
 
 h3 {
@@ -68,29 +100,44 @@ h3 {
 
 P{
   color: #014767;
-  font-size: 15px;
+  font-size: 17px;
 }
 
-li {
+#section-two li {
   list-style: none;
 }
 
+#section-two a {
+  text-decoration: none;
+  color: #014767;
+}
+
+
 footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   background-color: #014767;
+  color: #FFFFFF;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 15px;
 }
 
 footer li {
   list-style: none;
 }
 
-nav a {
-  text-decoration: none;
-  color: #FFFFFF;
+img {
+  margin-left: 10px;
 }
 
-h5{
-  text-align: center;
+.fa-brands {
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+#section-9 a {
+  text-decoration: none;
   color: #FFFFFF;
-  font-size: 10px;
-  margin-bottom: 0;
+  margin-left: 10px;
 }

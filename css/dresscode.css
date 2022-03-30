@@ -11,6 +11,7 @@ nav ul {
 nav li {
   list-style: none;
   text-align: center;
+  font-size: 13px;
 }
 
 nav a {
@@ -22,8 +23,17 @@ nav ul {
   margin-top: 20px;
 }
 
+nav a:hover {
+color:#F0810F;
+}
+
+nav a.active {
+  color:#F0810F;
+}
+
 img{
   margin-left: 10px;
+  margin-bottom: 25px;
 }
 
 heading img {
@@ -60,31 +70,43 @@ li {
   list-style: none;
   text-align: left;
   color: #014767;
-  font-size: 15px;
+  font-size: 17px;
 }
-h4 {
+
+#cost h4 {
   text-align: left;
-  color: black;
+  color: #000000;
   font-size: 20px;
   margin-top: 10px;
 }
 
+
 footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   background-color: #014767;
+  color: #FFFFFF;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 15px;
 }
 
 footer li {
   list-style: none;
+  color: #FFFFFF;
 }
 
-nav a {
+img {
+  margin-left: 10px;
+}
+
+.fa-brands {
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+#section-9 a {
   text-decoration: none;
   color: #FFFFFF;
-}
-
-h5{
-  text-align: center;
-  color: #FFFFFF;
-  font-size: 10px;
-  margin-bottom: 0;
+  margin-left: 10px;
 }
